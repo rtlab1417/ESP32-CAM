@@ -4,6 +4,12 @@
  * Use the concept of Sequential Function Chart (SFC)
  * State - Sx   
  * Transition - Tx
+ * 
+ * ESP32-CAM 
+ * Output - Leds ==>  pins[] = {12,13,15,14};
+ * Input - momentary push button ==> 2
+ * 
+ * The codes is suitable for other boards with minor changes.
  */
 
 uint16_t state = 0x0000; // upon start-up, all states are zero
